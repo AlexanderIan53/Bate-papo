@@ -22,7 +22,7 @@ list_of_clients = []
 
 
 def clientthread(conn, addr):
-    conn.send("Bem-vindo a esta sala de bate-papo")
+    conn.send(b"Bem-vindo a esta sala de bate-papo")
 
     while True:
         try:
